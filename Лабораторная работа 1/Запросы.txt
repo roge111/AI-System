@@ -1,0 +1,34 @@
+#Является ли lilya родителем egor?
+?- parent(lilya, egor)
+
+%% Вывести список родителей egor.
+?- bagof(X, parent(X, egor), L)
+
+%%Является ли svetlana_p бабушкой irina_lee
+is_grandparent(svetlana_p, irina_lee)
+
+%%Являються ли anya и egor брат и сестра?
+
+is_cousins(anya, egor).
+
+%%Является ли dima_ponomorenko прадедушкой egor, если да, то кто из детей родственник
+parent(dima_ponomorenko, X), is_grandparent(X, egor).
+
+%%Вывести детей dima_ponomorenko
+bagof(X, parent(dima_ponomorenko, X), L).
+
+%% Вывести список прародителей zhanna
+bagof(X, grandparent(X, zhanna), L).
+
+%% Какая дата дня рождения у egor
+birthday(egor, X).
+
+%%Кто разведены ли  родители ребенка martin_lee, вывести имена
+(parent(X, martin_lee),parent(Y, martin_lee)), unmarriage(X, Y).
+
+
+
+
+
+
+
