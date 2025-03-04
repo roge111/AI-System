@@ -1,0 +1,784 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/"
+     xml:base="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#hasGrandparent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#hasGrandparent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isBirthday -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isBirthday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isCosins -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isCosins">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isMarriageTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isMarriageTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isRelatives -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isRelatives"/>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#parent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#parent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alexandr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alexandr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#16-08-1964"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Zhanna"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#G_Batargin"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#G_Batargina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alexandr_Rudometkin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alexandr_Rudometkin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Anastasia_Rudometkina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alla_Ponomorenko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alla_Ponomorenko">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#14-03-1927"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Valentin_Ponomorenko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Anastasia_Rudometkina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Anastasia_Rudometkina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#21-09-1980"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alexandr_Rudometkin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Andrey_Batargin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Andrey_Batargin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Marina_Batargin"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#G_Batargin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Anya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Anya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#05-08-2003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Artur_Lee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Artur_Lee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#23-09-1963"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Dima_Ponomorenko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Dima_Ponomorenko">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#19-01-1926"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Ira_Ponomorenko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Egor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Egor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#20-02-2003"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alexandr"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Zhanna"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Ekaterina_Batargin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Ekaterina_Batargin">
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Andrey_Batargin"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Marina_Batargin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Evelina_Rudimetkin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Evelina_Rudimetkin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#24-03-2003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#G_Batargin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#G_Batargin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#G_Batargina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#G_Batargina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#G_Batargina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Igor_Rudometkin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Igor_Rudometkin">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#01-07-1950"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Maria_Ponomorenko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Ira_Ponomorenko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Ira_Ponomorenko">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#20-07-1929"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Irina_Lee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Irina_Lee">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#13-01-1973"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Irina_Ponomorenko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Irina_Ponomorenko">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#15-07-1949"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Vova"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Lilya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Lilya">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#30-05-1969"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Marko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Mari-Sofi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Mari-Sofi">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#08-02-2017"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Maria_Ponomorenko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Maria_Ponomorenko">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#09-09-1951"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Igor_Rudometkin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Marina_Batargin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Marina_Batargin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Marko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Marko">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#27-02-1967"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Lilya"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Marko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Martin_Lee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Martin_Lee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#07-09-2013"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Artur_Lee"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Irina_Lee"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Roman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Roman">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#21-12-1968"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Svetlana_P -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Svetlana_P">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#29-05-1950"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Valentin_Ponomorenko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Valentin_Ponomorenko">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#18-04-1927"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alla_Ponomorenko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Vladimir_Lee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Vladimir_Lee">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#11-09-1996"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Artur_Lee"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Irina_Lee"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Vladimir_P -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Vladimir_P">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#17-06-1946"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Vova -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Vova">
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#08-02-1948"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Irina_Ponomorenko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Zhanna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Zhanna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#people"/>
+        <untitled-ontology-8:isBirthday rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#21-12-1970"/>
+        <untitled-ontology-8:isMarriageTo rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Alexandr"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Svetlana_P"/>
+        <untitled-ontology-8:parent rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#Vladimir_P"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#01-07-1950 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#01-07-1950">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#05-08-2003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#05-08-2003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#07-09-2013 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#07-09-2013">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#08-02-1948 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#08-02-1948">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#08-02-2017 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#08-02-2017">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#09-09-1951 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#09-09-1951">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#11-09-1996 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#11-09-1996">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#13-01-1973 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#13-01-1973">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#14-03-1927 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#14-03-1927">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#15-07-1949 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#15-07-1949">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#16-08-1964 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#16-08-1964">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#17-06-1946 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#17-06-1946">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#18-04-1927 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#18-04-1927">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#19-01-1926 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#19-01-1926">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#20-02-2003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#20-02-2003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#20-07-1929 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#20-07-1929">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#21-09-1980 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#21-09-1980">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#21-12-1968 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#21-12-1968">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#21-12-1970 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#21-12-1970">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#23-08-1971 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#23-08-1971">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#23-09-1963 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#23-09-1963">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#24-03-2003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#24-03-2003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#27-02-1967 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#27-02-1967">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#29-05-1950 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#29-05-1950">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#30-05-1969 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#30-05-1969">
+        <rdf:type rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/y">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>isCousins</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#parent"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#parent"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/y"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isRelatives"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p1"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p2"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isCosins"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Grandparent</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#parent"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#parent"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/x"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#hasGrandparent"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Оперделяет родственность между родными братьями или сестрами</rdfs:comment>
+        <rdfs:label>isRelatives</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#parent"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#parent"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/y"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/p"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8#isRelatives"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/batar/ontologies/2024/11/untitled-ontology-8/y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
