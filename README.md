@@ -693,9 +693,9 @@ probabilities = counts / len(y)
 return -np.sum(probabilities * np.log2(probabilities + 1e-10))
 ```
 - Энтропия вычисляется как:
-  \[
+  $\[
   H(S) = -\sum_{i=1}^{C} p_i \log_2(p_i)
-  \]
+  \]$
 - Добавляем `1e-10` для стабильности (чтобы избежать `log(0)`).
 
 ---
